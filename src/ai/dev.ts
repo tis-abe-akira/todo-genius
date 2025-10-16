@@ -1,1 +1,6 @@
-// Flows will be imported for their side effects in this file.
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/smart-ai-reminders.ts';
+import '@/ai/flows/ai-task-breakdown.ts';
+import '@/ai/flows/ai-task-guidance.ts';
